@@ -28,7 +28,6 @@ public class SuspensionWindowUtil {
     public SuspensionWindowUtil(Context context) {
         this.context = context;
         this.mWindowManager = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
-
     }
 
     /**
